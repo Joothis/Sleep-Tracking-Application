@@ -53,7 +53,7 @@ fun RegistrationScreen(context: Context, databaseHelper: UserDatabaseHelper) {
 
     val imageModifier = Modifier
     Image(
-        painterResource(id = R.drawable.sleeptracking),
+        painterResource(id = R.drawable.download),
         contentScale = ContentScale.FillHeight,
         contentDescription = "",
         modifier = imageModifier
@@ -66,7 +66,7 @@ fun RegistrationScreen(context: Context, databaseHelper: UserDatabaseHelper) {
     ) {
 
         Image(
-            painter = painterResource(id = R.drawable.sleep),
+            painter = painterResource(id = R.drawable.pngtreebaby_sleeping_on_the__2684195),
             contentDescription = "",
 
             modifier = imageModifier

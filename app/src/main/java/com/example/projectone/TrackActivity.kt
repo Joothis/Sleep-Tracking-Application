@@ -56,7 +56,7 @@ class TrackActivity : ComponentActivity() {
 fun ListListScopeSample(timeLogs: List<TimeLogDatabaseHelper.TimeLog>) {
     val imageModifier = Modifier
     Image(
-        painterResource(id = R.drawable.sleeptracking),
+        painterResource(id = R.drawable.download),
         contentScale = ContentScale.FillHeight,
         contentDescription = "",
         modifier = imageModifier
